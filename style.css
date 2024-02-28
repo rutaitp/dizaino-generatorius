@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ED5071;
+}
+#container, #buttonContainer, #problemos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.boxes {
+  width: 500px;
+  height: 200px;
+  background-color: #F29656;
+  border: none;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-top: 5%;
+  font-family: "Open Sans";
+  font-size: 40px;
+  color:white;
+  line-height: 100px;
+}
+#generuoti {
+  width:200px;
+  height:100px;
+  display: block;
+  margin-top: 5%;
+  background-color: #F3E8F3;
+  border:none;
+  border-radius: 5px;
+  color: #7B2D91;
+  font-family: "Open Sans";
+  font-weight: "bold";
+  font-size: 25px;
+}
+#generuoti:focus{
+  outline:none;
+}
+#generuoti:hover{
+  background-color: #E6D3E7;
+}
+span{
+  margin-top: 5%;
+  font-family: "Open Sans";
+  font-weight: "bold";
+  font-size: 40px;
+  color:white;
+  line-height: 100px;
+}
